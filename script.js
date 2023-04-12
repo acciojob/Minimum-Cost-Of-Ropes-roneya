@@ -1,4 +1,4 @@
-function CalculateMinCost(){
+function calculateMinCost(){
 	var inputData= Document querySelector("#repo-lengths");
 	var inputArr= inputData.split(",");
 	
