@@ -6,9 +6,10 @@
 </head>
 
 <body>
-	<form id="form" onsubmit="minCostToFormRope(event)">
-      <input type="text" />
-      <input type="submit" value="Submit"/>
+	<form onsubmit="return false" id="form">
+      <label for="rope-lengths">Enter rope lengths:</label>
+      <input type="text" id="rope-lengths">
+      <button type="button" value="submit" onclick="calculateMinCost()">Calculate</button>
     </form>
     <div id="result"></div>
 
