@@ -19,7 +19,7 @@ function calculateMinCost() {
   }
 	
 
-const resultDiv = document.getElementById("result");
+const resultDiv = document.getElementById("#result");
 
 
 resultDiv.innerHTML = cost;
